@@ -11,6 +11,7 @@ Homestead.yaml
 npm-debug.log
 yarn-error.log
 .idea/
+todo.txt
 
 # Temporary ignore asset portfolio for development
 /public/img

@@ -29,7 +29,7 @@
 </head>
 <body>
     <div class='navbar section bold-font'>
-        <img class='navbar-logo' src='../img/logo/logo-white.png'>
+        <img class='navbar-logo' src='../img/logo/logo-white.png' alt='navia-logo'>
         <div class='navbar-link'>
             <a>About</a>
             <a>Products</a>
@@ -38,7 +38,7 @@
             <a>How To</a>
         </div>
         <div class="navbar-right">
-            <span class="round-button fill-button search-input">
+            <span class="round-button fill-button background-blue search-input">
                 <input 
                     type='text' 
                     placeholder='Find Inspiration'

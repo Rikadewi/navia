@@ -1,0 +1,66 @@
+/* Color pallete */
+.pastel {
+    color: #FAF9F7;
+}
+.background-pastel {
+    color: #FAF9F7;
+}
+.blue {
+    color: #00D5CE;
+}
+.dark-blue {
+    color: #262B4F;
+}
+.red {
+    color: #FF0068;
+}
+.gray {
+    color:#CAC9CE;
+}
+
+/* General Class */
+body {
+    font-family: 'Nunito Sans';
+}
+.bold-font {
+    font-weight:700;
+}
+.section {
+    padding: 0 100px;
+}
+.round-button {
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.fill-button {
+    background-color: #00D5CE;
+    color: white;
+}
+
+/* Navbar */
+.navbar img {
+    height: 50px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    align-items: center;
+}
+
+.navbar input {
+    border: none;
+    background: none;
+}
+.search-input {
+    display: flex;
+    margin: 0 10px;
+}
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+.navbar-link > a {
+    margin: 0 10px;
+}

@@ -2,7 +2,7 @@
 @section('body')
 <section id='home' class='round-border background-pastel'>
     <div>
-        <img class='round-border' src='../img/background/white-furniture-set-cropped.jpg' alt='white-furniture-set'>
+        <img class='round-border-big' src='../img/background/white-furniture-set-cropped.jpg' alt='white-furniture-set'>
     </div>    
     <div class="home-content">
         <div>
@@ -18,18 +18,35 @@
         </div>
     </div>
 </section>
-<section id='product'>
-    <h2>Our Products</h2>
+<section id='product' class='section'>
+    <div class="title">
+        <h2>Our Products</h2>
+        <a>
+            <span class='round-button'>
+                See All Products
+            </span>
+        </a>
+    </div>
     <div class='product-list'>
-        <div>
-            <img src='../img/portfolio/other/chair-without-hand.jpg' alt='chair-without-hand'>
+        <div class='round-border'>
+            <img class='shadow round-border' src='../img/portfolio/other/knitted-brown.jpg' alt='chair-without-hand'>
         </div>
-        <div>
-            <img src='../img/portfolio/other/chair-without-hand.jpg' alt='chair-without-hand'>
+        <div class='round-border'>
+            <img class='shadow round-border' src='../img/portfolio/other/knitted-brown.jpg' alt='chair-without-hand'>
         </div>
-        <div>
-            <img src='../img/portfolio/other/chair-without-hand.jpg' alt='chair-without-hand'>
+        <div class='round-border'>
+            <img class='shadow round-border' src='../img/portfolio/other/knitted-brown.jpg' alt='chair-without-hand'>
         </div>
     </div>
 </section>
+<!-- <section>
+    <div class="title">
+        <h2>How To</h2>
+        <a>
+            <span class='round-button'>
+                See All Products
+            </span>
+        </a>
+    </div>
+</section> -->
 @endsection

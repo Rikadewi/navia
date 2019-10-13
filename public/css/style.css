@@ -31,9 +31,13 @@
 h1 {
     font-size: 70px;
     margin: 0;
+    font-weight: 700;
 }
 h2 {
-    font-size: 50px;
+    color: #262B4F;
+    font-size: 40px;
+    margin: 0;
+    font-weight: 800;
 }
 h3 {
     font-size: 25px;
@@ -48,23 +52,40 @@ body {
     font-weight:700;
 }
 .section {
-    padding: 0 100px;
+    padding: 100px;
 }
 .round-button {
-    padding: 18px 35px;
+    padding: 15px 35px;
     border-radius: 50px;
+    font-weight: 800;
+    font-size: 20px;
+    border: 3px solid #00D5CE;
+    color: #00D5CE;
 }
 .fill-button {
+    padding: 18px 35px;
     color: white;
     border: none;
-    font-weight: 700;
-    font-size: 20px;
+}
+.round-border-big {
+    border-radius: 30px;
 }
 .round-border {
-    border-radius: 30px;
+    border-radius: 15px;
 }
 a {
     cursor: pointer;
+}
+.shadow {
+    -webkit-box-shadow: 40px 75px 77px -62px rgba(0,0,0,0.2);
+    -moz-box-shadow: 40px 75px 77px -62px rgba(0,0,0,0.2);
+    box-shadow: 40px 75px 77px -62px rgba(0,0,0,0.2);
+}
+.title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
 }
 
 /* Navbar */
@@ -114,5 +135,15 @@ a {
 }
 
 /* Product */
-
+.product-list {
+    display: flex;
+    margin: 0 -25px;
+}
+.product-list > div {
+    flex: 1;
+    margin: 25px;
+}
+.product-list img {
+    width: 100%;
+}
 

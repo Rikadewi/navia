@@ -29,12 +29,12 @@
 </head>
 <body>
     <div class='navbar section bold-font'>
-        <img class='navbar-logo' src='../img/logo/logo-white.png' alt='navia-logo'>
+        <img class='navbar-logo' src='../img/logo/logo-horizontal.png' alt='navia-logo'>
         <div class='navbar-link'>
             <a>About</a>
             <a>Products</a>
             <a>Pricing</a>
-            <a>Our Clients</a>
+            <a>Our Partners</a>
             <a>How To</a>
         </div>
         <div class="navbar-right">

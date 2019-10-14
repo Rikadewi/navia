@@ -43,10 +43,14 @@ h3 {
     font-size: 25px;
     font-weight: 400;
 }
-
+h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
 /* General Class */
 body {
     font-family: 'Nunito Sans';
+    margin: 0;
 }
 .bold-font {
     font-weight:700;
@@ -86,6 +90,11 @@ a {
     justify-content: space-between;
     margin-bottom: 20px;
     align-items: center;
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Navbar */
@@ -147,3 +156,32 @@ a {
     width: 100%;
 }
 
+/* Client */
+#client {
+    display: flex;
+}
+#client > div {
+    flex: 1;
+}
+.client-list img {
+    height: 60px;
+}
+#client .round-border-big {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0
+}
+.client-count {
+    display: flex;
+    align-items: center;
+}
+.client-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.client-list img {
+    margin: 10px;
+}
+#client .section {
+    padding: 50px 100px;
+}

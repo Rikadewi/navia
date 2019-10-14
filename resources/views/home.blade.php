@@ -46,7 +46,33 @@
             <span class='round-button'>
                 See All Products
             </span>
-        </a>
+ 
     </div>
 </section> -->
+<section id='client'>
+    <div class='background-pastel round-border-big section center'>
+        <div>
+            <h3 class='dark-purple'>We are experienced in exporting furniture to </h3>
+            <div class='client-count'>
+                <h1 class='red'>5+</h1>&nbsp;<h2 class='dark-blue'>countries</h2>
+            </div>
+        </div>
+    </div>
+    <div class='section'>
+        <h4 class='dark-purple'>
+            We help our business partners to fulfill their need of quality and affordable supply furnitures to manufacture
+        </h4>
+        <div class='client-list'>
+            <img src='../img/client/astana.png' alt='astana'>
+            <img src='../img/client/ikons.png' alt='ikons'>
+            <img src='../img/client/kit-m.png' alt='kit-m'>
+            <img src='../img/client/le-beton.png' alt='le-beton'>
+            <img src='../img/client/maisons-du-monde.png' alt='maisons-du-monde'>
+            <img src='../img/client/pro-living-asia.jpg' alt='pro-living-asia'>
+            <img src='../img/client/ravate.png' alt='ravate'>
+            <img src='../img/client/rsi.png' alt='rsi'>
+            <img src='../img/client/tower-international.png' alt='tower-international'>
+        </div>
+    </div>
+</section>
 @endsection

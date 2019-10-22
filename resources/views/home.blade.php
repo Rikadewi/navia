@@ -36,7 +36,7 @@
         <h4>Quality Control</h4>
     </div>   
 </section>
-<section id='product' class='section'>
+<section id='product' class='section section-top'>
     <div class="title">
         <h2>Our Products</h2>
         <a>

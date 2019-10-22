@@ -73,6 +73,9 @@ h4 {
     h1 {
         font-size: 36px;
     }
+    h2 {
+        font-size: 27px;
+    }
     h3 {
         font-size: 22px;
     }
@@ -184,10 +187,33 @@ a:hover {
 input:focus {
     outline: none;
 }
+.section-top {
+    padding: 5vw 0;
+}
 @media only screen and (max-width: 918px) {
     .round-button {
         font-size: 19px;
         padding: 12px 28px;
+    }
+    .section-top {
+        padding: 8vw 0;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .round-button {
+        font-size: 18px;
+        padding: 11px 27px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .title {
+        flex-direction: column;
+    }
+    .title .round-button {
+        display: flex;
+    }
+    .title h2 {
+        margin-bottom: 2vw;
     }
 }
 
@@ -326,6 +352,10 @@ input:focus {
     #home {
         padding: 4vw;
     }
+    #home h3 {
+        margin-bottom: 6vw;
+        margin-top: 1vw;
+    }
 }
 @media only screen and (max-width: 798px) {
     #home {
@@ -407,19 +437,29 @@ input:focus {
 }
 
 /* Product */
-#product {
-    padding: 100px 0;
-}
 .product-list {
     display: flex;
-    margin: 0 -25px;
+    margin: 0 -2vw;
 }
 .product-list > div {
     flex: 1;
-    margin: 25px;
+    margin: 2vw;
 }
 .product-list img {
     width: 100%;
+}
+@media only screen and (max-width: 670px) {
+    .product-list {
+        flex-direction: column;
+    }
+    .product-list > div {
+        margin: 5vw 3vw;
+        justify-content: center;
+        display: flex;
+    }
+    .product-list img {
+        max-width: 500px;
+    }
 }
 
 /* Client */

@@ -6,7 +6,7 @@
             <a>About</a>
             <a>Products</a>
             <a>Our Partners</a>
-            <a>How To</a>
+            <a class='no-border-bottom'>How To</a>
         </div>
         <div class="right-navbar">
             <span id='search-button' class="round-button fill-button background-blue search-input">

@@ -1,12 +1,12 @@
 @extends('layout.app')
 @section('body')
-<section id='home' class='round-border background-pastel'>
-    <div>
+<section id='home' class='round-border background-pastel section'>
+    <div class='background'>
         <img class='round-border-big' src='../img/background/white-furniture-set-cropped.jpg' alt='white-furniture-set'>
     </div>    
     <div class="home-content">
         <div>
-            <h1 class='dark-blue'>Furniture Manufacturer</h1>
+            <h1 class='dark-blue'>Solid Wood Furniture Manufacturer</h1>
             <h3 class='dark-purple'>
                 Get Indonesian’s wooden furniture with the best craftsmen at affordable prices
             </h3>
@@ -17,6 +17,24 @@
             </a>
         </div>
     </div>
+</section>
+<section id='about' class='section'>
+    <div>
+        <img src='../img/icon/custom-made.png' alt='custom-made'>
+        <h4>Custom Made</h4>
+    </div>
+    <div>
+        <img src='../img/icon/best-price.png' alt='best-price'>
+        <h4>Best Price</h4>
+    </div>
+    <div>
+        <img src='../img/icon/fully-natural.png' alt='fully-natural'>
+        <h4>Fully Natural</h4>
+    </div>
+    <div>
+        <img src='../img/icon/quality-control.png' alt='quality-control'>
+        <h4>Quality Control</h4>
+    </div>   
 </section>
 <section id='product' class='section'>
     <div class="title">
@@ -55,6 +73,9 @@
             <h3 class='dark-purple'>We are experienced in exporting furniture to </h3>
             <div class='client-count'>
                 <h1 class='red'>5+</h1>&nbsp;<h2 class='dark-blue'>countries</h2>
+            </div>
+            <div class='client-count'>
+                <h1 class='red'>1000+</h1>&nbsp;<h2 class='dark-blue'>furnitures</h2>
             </div>
         </div>
     </div>

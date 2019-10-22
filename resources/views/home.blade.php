@@ -57,18 +57,8 @@
         </div>
     </div>
 </section>
-<!-- <section>
-    <div class="title">
-        <h2>How To</h2>
-        <a>
-            <span class='round-button'>
-                See All Products
-            </span>
- 
-    </div>
-</section> -->
-<section id='client'>
-    <div class='background-pastel round-border-big section center'>
+<section id='client' class='section-top'>
+    <div class='background-pastel round-border-big center'>
         <div>
             <h3 class='dark-purple'>We are experienced in exporting furniture to </h3>
             <div class='client-count'>
@@ -79,9 +69,10 @@
             </div>
         </div>
     </div>
-    <div class='section'>
+    <div>
         <h4 class='dark-purple'>
-            We help our business partners to fulfill their need of quality and affordable supply furnitures to manufacture
+            We help our business partners to fulfill their need of quality and affordable 
+            supply furnitures to manufacture.
         </h4>
         <div class='client-list'>
             <img src='../img/client/astana.png' alt='astana'>

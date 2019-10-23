@@ -10,7 +10,7 @@
             <h3 class='dark-purple'>
                 Get Indonesian’s wooden furniture with the best craftsmen at affordable prices
             </h3>
-            <a>
+            <a href='/how'>
                 <span class='round-button fill-button background-red'>
                     Find Out How &nbsp;<i class="fa fa-long-arrow-alt-right"></i>
                 </span>

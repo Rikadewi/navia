@@ -63,10 +63,6 @@
 </section>
 @endsection
 
-@section('script')
-<script  src="../js/timeline.js"></script>
-@endsection
-
 @section('style')
 <link rel="stylesheet" type="text/css" href="../css/timeline.css">
 @endsection

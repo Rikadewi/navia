@@ -15,16 +15,8 @@ html * {
   }
   
   body {
-    font-size: 100%;
-    font-family: "Droid Serif", serif;
-    color: #7f8c97;
+    color: #636679;
     background-color: #faf9f7;
-  }
-  
-  a {
-    color: #acb7c0;
-    text-decoration: none;
-    font-family: "Open Sans", sans-serif;
   }
   
   img {

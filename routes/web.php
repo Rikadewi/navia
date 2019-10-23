@@ -14,6 +14,9 @@
 Route::get('/', function () {
     return view('home');
 });
+Route::get('/how', function () {
+    return view('how');
+});
 Route::post('/contact/send', 'ContactController@send');
 Route::fallback(function () {
     return view('layout.notfound');

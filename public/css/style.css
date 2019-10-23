@@ -15,7 +15,7 @@
     color: #262B4F;
 }
 .dark-purple {
-    color: #636679
+    color: #636679;
 }
 .red {
     color: #FF0068;
@@ -522,7 +522,6 @@ footer {
 }
 footer h4 {
     margin: 0px;
-    font-weight: 700;
 }
 footer a h4 {
     font-weight: 400;
@@ -531,7 +530,7 @@ footer a {
     color: #262B4F;
 }
 footer a:hover {
-    color: #FF0068;
+    color: #FF0068 !important;
 }
 .footer-wrapper {
     display: flex;
@@ -555,6 +554,13 @@ footer a:hover {
     margin-top: 2.5vw;
     text-align: center;
     font-weight: 400;
+}
+footer.inverted {
+    background-color: white;
+    color: #636679; 
+}
+footer.inverted a {
+    color: #636679; 
 }
 /* Left */
 .footer-logo {

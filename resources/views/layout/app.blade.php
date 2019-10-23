@@ -25,6 +25,7 @@
 
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    @yield('style')
     <link rel="stylesheet" type="text/css" href="../css/style.css">
 
 </head>
@@ -33,9 +34,10 @@
     @include('layout.navbar')
     <section class='app-wrapper'>
         @yield('body')
-        @include('layout.footer')
+        @include('layout.footer', ['inverted' => $inverted ?? ''])
     </section>
     <!-- Script --> 
+    @yield('script')
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="../js/script.js"></script>
 </body>

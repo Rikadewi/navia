@@ -147,7 +147,7 @@ a:hover {
     box-shadow: 40px 75px 77px -62px rgba(0,0,0,0.2);
 }
 .no-border-bottom {
-    border-bottom: none;
+    border-bottom: none !important;
 }
 .box {
     border: 1px solid #E7E7E7;
@@ -163,26 +163,6 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.box-input input {
-    background: none;
-    border: none;
-    height: 100%;
-    margin: 0 10px;
-}
-.box-input {
-    border-bottom: 2px solid #636679;
-    padding: 10px;
-    display: flex;
-    align-items: baseline;
-    height: 20px;
-    margin: 5px 0;
-}
-.box-input ::placeholder {
-    color: #636679;
-    font-size: 20px;
-    font-weight: 400;
-    font-family: 'Nunito Sans';
 }
 input:focus {
     outline: none;
@@ -512,42 +492,138 @@ input:focus {
 }
 
 /* Footer */
-.footer-logo {
-    height: 50px;
-}
+
 footer {
-    display: flex;
-    margin-top: 50px;
-    color: #636679;
-}
-footer a {
-    color: #636679;
-}
-footer > div {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-}
-.footer-link {
-    margin: 0 20px;
+    color: #262B4F;
+    padding: 2vw 5vw 0 5vw;
 }
 footer h4 {
     margin: 0px;
+    font-weight: 700;
+}
+footer a h4 {
+    font-weight: 400;
+}
+footer a {
+    color: #262B4F;
+}
+footer a:hover {
+    color: #FF0068;
+}
+.footer-wrapper {
+    display: flex;
+    max-width: 1300px;
+    margin: auto;
+    max-width: 1300px;
+    margin: auto;
+    justify-content: space-between;
+}
+.footer-wrapper > div {
+    display: flex;
+    flex-direction: column;
 }
 .footer-title {
     height: 86px;
     display: flex;
     align-items: center;
+    margin: 0;
 }
-.footer-link img {
+.copy {
+    margin-top: 2.5vw;
+    text-align: center;
+    font-weight: 400;
+}
+/* Left */
+.footer-logo {
     height: 50px;
 }
-.middle-socmed {
-    margin: 0 15px;
+.footer-left > div {
+    margin: 0.5vw 0;
+}
+h4.footer-accept {
+    font-size: 20px;
+}
+.footer-accept img, .footer-certified img  {
+    max-height: 60px;
+    height: 5vw;
+    min-height: 40px;
+}
+/* Middle */
+.footer-link h4 {
+    margin: 8px 0;
+}
+/* Right */
+.footer-contact {
+    width: 40%;
 }
 footer span.round-button {
-    margin-top: 20px;
+    margin-top: 2vw;
 }
-footer .section {
-    padding: 50px 100px;
+.box-input input {
+    background: none;
+    border: none;
+    height: 20px;
+    margin: 0 10px;
+    font: 400 20px 'Nunito Sans';
+}
+.box-input {
+    border-bottom: 2px solid #636679;
+    padding: 10px;
+    display: flex;
+    align-items: baseline;
+    height: 50px;
+    margin: 5px 0;
+}
+.box-input ::placeholder {
+    color: #636679;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Nunito Sans';
+}
+.footer-submit {
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width: 918px) {
+    .footer-link h4 {
+        margin: 4px 0;
+    }
+    .box-input input {
+        height: 18px;
+        margin: 0 9px;
+        font: 400 18px 'Nunito Sans';
+    }
+    .box-input {
+        padding: 9px;
+        height: 40px;
+        margin: 5px 0;
+    }
+    .box-input ::placeholder {
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 720px) {
+    .footer-wrapper {
+        flex-direction: column;
+        max-width: 500px;
+        
+    }
+    .footer-contact {
+        width: 100%;
+    }
+    footer {
+        padding: 4vw 6vw 0 6vw;
+    }
+    .footer-title {
+        height: auto;
+    }
+    .footer-left > div {
+        margin: 0;
+    }
+    footer h4, .footer-link h4  {
+        margin: 10px 0;
+    }
+    h4.copy {
+        margin-bottom: 0;
+    }
 }

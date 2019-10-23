@@ -89,11 +89,23 @@ body {
     font-family: 'Nunito Sans';
     margin: 0;
 }
-.bold-font {
-    font-weight:700;
-}
 .section {
     margin: 0 5vw;
+}
+.app-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+.body-wrapper {
+    margin-top: 90px;
+}
+.app-wrapper > footer {
+    width: 100%;
+}
+.bold-font {
+    font-weight:700;
 }
 .round-button {
     padding: 15px 35px;
@@ -181,6 +193,9 @@ button:focus {
     .section-top {
         padding: 8vw 0;
     }
+    .body-wrapper {
+        margin-top: 84px;
+    }
 }
 @media only screen and (max-width: 600px) {
     .round-button {
@@ -189,6 +204,9 @@ button:focus {
     }
 }
 @media only screen and (max-width: 600px) {
+    .body-wrapper {
+        margin-top: 82px;
+    }
     .title {
         flex-direction: column;
     }
@@ -197,6 +215,11 @@ button:focus {
     }
     .title h2 {
         margin-bottom: 2vw;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .body-wrapper {
+        margin-top: 64px;
     }
 }
 
@@ -304,7 +327,6 @@ button:focus {
 #home {
     display: flex;
     padding: 5vw;
-    margin-top: 90px;
 }
 #home img {
     width: 700px;
@@ -321,11 +343,6 @@ button:focus {
 @media only screen and (max-width: 1600px) {
     #home img {
         width: 100%;
-    }
-}
-@media only screen and (max-width: 918px) {
-    #home {
-        margin-top: 84px;
     }
 }
 @media only screen and (max-width: 798px) {
@@ -348,6 +365,9 @@ button:focus {
     }
 }
 @media only screen and (max-width: 645px) {
+    #home.body-wrapper {
+        margin-top: 0;
+    }
     .home-content {
         position: absolute;
         bottom: 0;

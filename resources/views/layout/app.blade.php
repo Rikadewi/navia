@@ -31,8 +31,10 @@
 <body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     @include('layout.navbar')
-    @yield('body')
-    @include('layout.footer')
+    <section class='app-wrapper'>
+        @yield('body')
+        @include('layout.footer')
+    </section>
     <!-- Script --> 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="../js/script.js"></script>

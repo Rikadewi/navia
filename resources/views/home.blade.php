@@ -1,6 +1,6 @@
 @extends('layout.app')
 @section('body')
-<section id='home' class='round-border background-pastel section'>
+<section id='home' class='round-border background-pastel section body-wrapper'>
     <div class='background'>
         <img class='round-border-big' src='../img/background/white-furniture-set-cropped.jpg' alt='white-furniture-set'>
     </div>    

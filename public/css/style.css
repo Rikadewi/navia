@@ -170,6 +170,9 @@ input:focus {
 .section-top {
     padding: 5vw 0;
 }
+button:focus {
+    outline: none;
+}
 @media only screen and (max-width: 918px) {
     .round-button {
         font-size: 19px;
@@ -243,7 +246,7 @@ input:focus {
     padding-top: 8px;
     padding-bottom: 8px;
 }
-@media only screen and (max-width: 855px) {
+@media only screen and (max-width: 900px) {
     .control-mobile {
         display: block;
     }
@@ -556,14 +559,16 @@ h4.footer-accept {
 .footer-contact {
     width: 40%;
 }
-footer span.round-button {
+footer .round-button {
     margin-top: 2vw;
+    background: none;
 }
 .box-input input {
     background: none;
     border: none;
     height: 20px;
-    margin: 0 10px;
+    margin-left: 10px;
+    width: 100%;
     font: 400 20px 'Nunito Sans';
 }
 .box-input {
@@ -584,13 +589,17 @@ footer span.round-button {
     display: flex;
     justify-content: center;
 }
+.footer-submit button:focus {
+    background-color: #00D5CE;
+    color: white;
+}
 @media only screen and (max-width: 918px) {
     .footer-link h4 {
         margin: 4px 0;
     }
     .box-input input {
         height: 18px;
-        margin: 0 9px;
+        margin-left: 9px;
         font: 400 18px 'Nunito Sans';
     }
     .box-input {

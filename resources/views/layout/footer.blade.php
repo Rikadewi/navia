@@ -43,33 +43,41 @@
         <div class='footer-contact'> 
             <div class='footer-title'>
                 <h4 class='dark-blue'><b>Contact Us</b></h4>
-            </div>       
-            <span class='box-input'>
-                <i class='fa fa-user'></i>
-                <input 
-                    type='text' 
-                    placeholder='Enter your name'
-                >
-            </span>
-            <span class='box-input'>
-                <i class='fa fa-envelope'></i>
-                <input 
-                    type='text' 
-                    placeholder='Enter your email'
-                >
-            </span>
-            <span class='box-input'>
-                <i class='fa fa-edit'></i>
-                <input 
-                    type='text' 
-                    placeholder='Leave a message'
-                >
-            </span>
-            <div class='footer-submit'>
-                <span class='round-button'>
-                    Submit
+            </div> 
+            <form method="post" action="{{url('contact/send')}}">     
+                {{ csrf_field() }} 
+                <span class='box-input'>
+                    <i class='fa fa-user'></i>
+                    <input 
+                        type='text' 
+                        placeholder='Enter your name'
+                        name='name'
+                    >
                 </span>
-            </div>
+                <span class='box-input'>
+                    <i class='fa fa-envelope'></i>
+                    <input 
+                        type='text' 
+                        placeholder='Enter your email'
+                        name='email'
+                        required
+                    >
+                </span>
+                <span class='box-input'>
+                    <i class='fa fa-edit'></i>
+                    <input 
+                        type='text' 
+                        placeholder='Leave a message'
+                        name='message'
+                        required
+                    >
+                </span>
+                <div class='footer-submit'>
+                    <button class='round-button' type='submit'>
+                        Submit
+                    </button>
+                </div>
+            </form>
         </div>
     </div>
     <h4 class='copy'>

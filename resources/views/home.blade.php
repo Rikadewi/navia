@@ -1,7 +1,7 @@
 @extends('layout.app')
 @section('body')
 <section id='home' class='round-border background-pastel section body-wrapper'>
-    <div class='background'>
+    <div class='background-home'>
         <img class='round-border-big' src='../img/background/white-furniture-set-cropped.jpg' alt='white-furniture-set'>
     </div>    
     <div class="home-content">
@@ -39,8 +39,8 @@
 <section id='product' class='section section-top'>
     <div class="title">
         <h2>Our Products</h2>
-        <a>
-            <span class='round-button'>
+        <a href='/product'>
+            <span class='round-button round-button-blue'>
                 See All Products
             </span>
         </a>

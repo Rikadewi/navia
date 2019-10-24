@@ -391,7 +391,7 @@ button:focus {
     #home img {
         display: none;
     }
-    #home .background {
+    #home .background-home {
         height: 100vh;
         width: 100vw;
         background-image: url('../img/background/white-furniture-set-cropped.jpg');
@@ -615,7 +615,7 @@ footer .round-button {
     display: flex;
     justify-content: center;
 }
-.footer-submit button:focus {
+.button:focus, .round-button-blue:hover {
     background-color: #00D5CE;
     color: white;
 }
@@ -660,5 +660,45 @@ footer .round-button {
     }
     h4.copy {
         margin-bottom: 0;
+    }
+}
+
+/* Product-Page */
+#product-page {
+    background-color: #faf9f7;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 5vw;
+}
+.background-product {
+    min-width: 26vw;
+    height: 27vw;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#product-page .product-list > div {
+    margin: 1.5vw;
+    padding: 5vw 0;
+    background-color: white;
+    box-shadow: 0 3px 0 #6266795c;
+}
+#product-page .product-list {
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#product-page .title {
+    margin-top: 4vw;
+}
+@media only screen and (max-width: 700px) {
+    .background-product {
+        min-width: 200px;
+        height: 40vw;
+    }
+}
+@media only screen and (max-width: 478px) {
+    .background-product {
+        min-width: 250px;
+        height: 80vw;
     }
 }

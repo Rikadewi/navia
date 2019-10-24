@@ -4,7 +4,7 @@
         <img src='../img/logo/logo-horizontal.png' alt='navia-logo'>
         <div class='navbar-link'>
             <a href='/'>Home</a>
-            <a href='/'>Products</a>
+            <a href='/product'>Products</a>
             <a href='/how'>How To</a>
             <a href='/'>Contact</a>
         </div>

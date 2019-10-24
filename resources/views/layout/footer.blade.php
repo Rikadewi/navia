@@ -77,7 +77,7 @@
                     >
                 </span>
                 <div class='footer-submit'>
-                    <button class='round-button' type='submit'>
+                    <button class='round-button round-button-blue' type='submit'>
                         Submit
                     </button>
                 </div>

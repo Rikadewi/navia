@@ -46,15 +46,9 @@
         </a>
     </div>
     <div class='product-list'>
-        <div class='round-border'>
-            <img class='shadow round-border' src='../img/portfolio/other/knitted-brown.jpg' alt='chair-without-hand'>
-        </div>
-        <div class='round-border'>
-            <img class='shadow round-border' src='../img/portfolio/other/knitted-brown.jpg' alt='chair-without-hand'>
-        </div>
-        <div class='round-border'>
-            <img class='shadow round-border' src='../img/portfolio/other/knitted-brown.jpg' alt='chair-without-hand'>
-        </div>
+        <div class='round-border shadow'><div style='background-image: url("../img/portfolio/edited/10.png");' class='background-product'></div></div>
+        <div class='round-border shadow'><div style='background-image: url("../img/portfolio/edited/30.png");' class='background-product'></div></div>
+        <div class='round-border shadow'><div style='background-image: url("../img/portfolio/edited/41.png");' class='background-product'></div></div>
     </div>
 </section>
 <section id='client' class='section-top'>

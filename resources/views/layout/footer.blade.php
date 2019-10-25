@@ -40,13 +40,11 @@
             <div class='contact-title'>
                 <h4 class='dark-blue'><b>Helpful Links</b></h4>
             </div>
-            <!-- TODO change this -->
-            <a><h4>Home</h4></a>
-            <a><h4>About</h4></a>
-            <a><h4>Products</h4></a>
-            <a><h4>How To</h4></a>
-            <a><h4>Find Inspiration</h4></a>
-            <a><h4>Contact</h4></a>
+            <a href='/'><h4>Home</h4></a>
+            <a href='/product'><h4>Products</h4></a>
+            <a href='/how'><h4>How To</h4></a>
+            <a href='/find'><h4>Find Inspiration</h4></a>
+            <a href='/contact'><h4>Contact</h4></a>
         </div>
         <div class='contact-form'> 
             <div class='contact-title'>

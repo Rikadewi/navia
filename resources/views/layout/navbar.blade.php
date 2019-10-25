@@ -21,10 +21,10 @@
         </div>
     </div>
     <div id='collapsed' class='background-pastel'>
-        <!-- TODO change this -->
         <a href='/'>Home</a>
-        <a href='/'>Products</a>
-        <a href='/'>How To</a>
-        <a href='/' class='no-border-bottom'>Contact</a>
+        <a href='/product'>Products</a>
+        <a href='/how'>How To</a>
+        <a href='/find'>Find Inspiration</a>
+        <a href='/contact' class='no-border-bottom'>Contact</a>
     </div>
 </div>

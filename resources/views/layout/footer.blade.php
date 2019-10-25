@@ -17,7 +17,7 @@
                 <a href="mailto:hello@naviafurniture.com" target="_blank">
                     <h4><i class="fa fa-envelope"></i> hello@naviafurniture.com</h4>
                 </a>
-                <a href="tel:+6282211511517" target="_blank">
+                <a href="https://wa.me/+6282211511517" target="_blank">
                     <h4><i class="fab fa-whatsapp"></i> +6289506217771</h4>
                 </a>
             </div>

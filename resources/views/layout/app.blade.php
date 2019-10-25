@@ -34,7 +34,7 @@
     @include('layout.navbar')
     <section class='app-wrapper'>
         @yield('body')
-        @include('layout.footer', ['inverted' => $inverted ?? ''])
+        @include('layout.footer', ['inverted' => $inverted ?? '', 'iscontact' => $iscontact ?? ''])
     </section>
     <!-- Script --> 
     @yield('script')

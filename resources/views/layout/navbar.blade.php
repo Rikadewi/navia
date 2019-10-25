@@ -6,7 +6,7 @@
             <a href='/'>Home</a>
             <a href='/product'>Products</a>
             <a href='/how'>How To</a>
-            <a href='/'>Contact</a>
+            <a href='/contact'>Contact</a>
         </div>
         <div class="right-navbar">
             <span id='search-button' class="round-button fill-button background-blue search-input">

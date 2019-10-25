@@ -1,11 +1,15 @@
 @if ($inverted == 'true')
-<footer class='background-pastel inverted'>
+<footer class='contact background-pastel inverted'>
 @else 
-<footer class='background-pastel'>
+<footer class='contact background-pastel'>
 @endif
-    <div class=footer-wrapper>
-        <div class='footer-left'>
-            <div class='footer-title'>
+    @if ($iscontact == 'true')
+    <div class='contact-wrapper iscontact'>
+    @else 
+    <div class='contact-wrapper'>
+    @endif
+        <div class='contact-left'>
+            <div class='contact-title'>
                 <a href='/'><img class='footer-logo' src='../img/logo/logo-horizontal.png' alt='navia-logo'></a>
             </div>
             <div>
@@ -33,7 +37,7 @@
     
         </div>
         <div class='footer-link'>
-            <div class='footer-title'>
+            <div class='contact-title'>
                 <h4 class='dark-blue'><b>Helpful Links</b></h4>
             </div>
             <!-- TODO change this -->
@@ -44,8 +48,8 @@
             <a><h4>Find Inspiration</h4></a>
             <a><h4>Contact</h4></a>
         </div>
-        <div class='footer-contact'> 
-            <div class='footer-title'>
+        <div class='contact-form'> 
+            <div class='contact-title'>
                 <h4 class='dark-blue'><b>Contact Us</b></h4>
             </div> 
             <form method="post" action="{{url('contact/send')}}">     
@@ -76,7 +80,7 @@
                         required
                     >
                 </span>
-                <div class='footer-submit'>
+                <div class='contact-form-submit'>
                     <button class='round-button round-button-blue' type='submit'>
                         Submit
                     </button>

@@ -20,6 +20,9 @@ Route::get('/how', function () {
 Route::get('/product', function () {
     return view('product');
 });
+Route::get('/contact', function () {
+    return view('contact');
+});
 Route::post('/contact/send', 'ContactController@send');
 Route::fallback(function () {
     return view('layout.notfound');

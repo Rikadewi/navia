@@ -11,16 +11,9 @@
     </div>
     
     <div class='product-list'>
-        <div class='round-border'><div style='background-image: url("../img/portfolio/edited/1.png");' class='background-product'></div></div>
-        <div class='round-border'><div style='background-image: url("../img/portfolio/edited/2.png");' class='background-product'></div></div>
-        <div class='round-border'><div style='background-image: url("../img/portfolio/edited/3.png");' class='background-product'></div></div>
-        <div class='round-border'><div style='background-image: url("../img/portfolio/edited/4.png");' class='background-product'></div></div>
-        <div class='round-border'><div style='background-image: url("../img/portfolio/edited/5.png");' class='background-product'></div></div>
-        <div class='round-border'><div style='background-image: url("../img/portfolio/edited/6.png");' class='background-product'></div></div>
-        <div class='round-border'><div style='background-image: url("../img/portfolio/edited/7.png");' class='background-product'></div></div>
-        <div class='round-border'><div style='background-image: url("../img/portfolio/edited/8.png");' class='background-product'></div></div>
-        <div class='round-border'><div style='background-image: url("../img/portfolio/edited/9.png");' class='background-product'></div></div>
-        <div class='round-border'><div style='background-image: url("../img/portfolio/edited/10.png");' class='background-product'></div></div>
+        @for ($i = 1; $i <= 41; $i++)
+            <div class='round-border'><div style='background-image: url("../img/portfolio/edited/{{ $i }}.png");' class='background-product'></div></div>
+        @endfor
     </div>
 </section>
 @endsection

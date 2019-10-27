@@ -12,8 +12,8 @@
             <a href="https://wa.me/+6282211511517" target="_blank" class='box-input'>
                 <h4><i class="fab fa-whatsapp"></i> +6289506217771</h4>
             </a>
-            <a href="https://wa.me/+6282211511517" target="_blank" class='box-input'>
-                <h4><i class="fa fa-map-marker-alt"></i> Tubagus Ismail Street, 15, Bandung, West Java, Indonesia</h4>
+            <a href="https://goo.gl/maps/vjHd71tXSRCx6GD76" target="_blank" class='box-input'>
+                <h4><i class="fa fa-map-marker-alt"></i> Jalan Perjuangan No 18, Kebon Jeruk, West Jakarta, Greater Jakarta Area, Indonesia 11530 </h4>
             </a>
         </div>
         <div class='contact-form'> 

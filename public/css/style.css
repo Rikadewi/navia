@@ -264,6 +264,7 @@ button:focus {
 }
 #navbar .fill-button {
     border: 3px solid #00D5CE;
+    display: none;
 }
 #collapsed.collapse.in, #collapsed {
     display: none;
@@ -663,9 +664,9 @@ h4.footer-accept {
     margin-right: 0;
     padding: 5vw;
 }
-.background-product {
-    min-width: 26vw;
-    height: 27vw;
+.background-product {    
+    min-width: 17vw;
+    height: 22vw;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;

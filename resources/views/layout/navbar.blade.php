@@ -24,7 +24,7 @@
         <a href='/'>Home</a>
         <a href='/product'>Products</a>
         <a href='/how'>How To</a>
-        <a href='/find'>Find Inspiration</a>
+        <a style='display: none;' href='/find'>Find Inspiration</a>
         <a href='/contact' class='no-border-bottom'>Contact</a>
     </div>
 </div>

@@ -31,7 +31,7 @@ class SendMail extends Mailable
         if ($this->data['user'] == true) {
             return $this->from(env('MAIL_USERNAME'))->subject('Thanks for Contacting Us')->view('mail.user')->with('data', $this->data);
         } else{
-            return $this->from(env('MAIL_ADMIN'))->subject('NAVIA Admin')->view('mail.admin')->with('data', $this->data);
+            return $this->from(env('MAIL_USERNAME'))->subject('NAVIA Admin')->view('mail.admin')->with('data', $this->data);
         }
     }
 }

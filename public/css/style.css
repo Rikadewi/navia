@@ -577,6 +577,7 @@ h4.footer-accept {
     background: none;
 }
 .box-input input {
+    -webkit-appearance: none;
     background: none;
     border: none;
     height: 20px;

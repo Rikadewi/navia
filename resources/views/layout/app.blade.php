@@ -17,7 +17,20 @@
 
 
     <link rel="icon" type="image/ico" href="../img/logo/logo-white.png" />
+    <!-- Global site tag (gtag.js) - Google Ads: 698879374 --> 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-698879374"></script> 
+    <script> 
+        window.dataLayer = window.dataLayer || []; 
+        function gtag(){dataLayer.push(arguments);} 
+        gtag('js', new Date()); 
+        gtag('config', 'AW-698879374'); 
+    </script> 
 
+    <!-- Event snippet for Conversion to contact conversion page In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. --> 
+    <script> 
+        function gtag_report_conversion(url) { var callback = function () { if (typeof(url) != 'undefined') { window.location = url; } }; gtag('event', 'conversion', { 'send_to': 'AW-698879374/TXJDCOfC37IBEI6boM0C', 'event_callback': callback }); return false; } 
+    </script> 
+    
     <!--Font-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
           integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">

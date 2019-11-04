@@ -40,11 +40,11 @@
             <div class='contact-title'>
                 <h4 class='dark-blue'><b>Helpful Links</b></h4>
             </div>
-            <a href='/'><h4>Home</h4></a>
-            <a href='/product'><h4>Products</h4></a>
-            <a href='/how'><h4>How To</h4></a>
+            <a href='/' onclick="return gtag_report_conversion('https://naviafurniture.com');"><h4>Home</h4></a>
+            <a href='/product' onclick="return gtag_report_conversion('https://naviafurniture.com/product');"><h4>Products</h4></a>
+            <a href='/how' onclick="return gtag_report_conversion('https://naviafurniture.com/how');"><h4>How To</h4></a>
             <a style="display: none;" href='/find'><h4>Find Inspiration</h4></a>
-            <a href='/contact'><h4>Contact</h4></a>
+            <a href='/contact' onclick="return gtag_report_conversion('https://naviafurniture.com/contact');"><h4>Contact</h4></a>
         </div>
         <div class='contact-form'> 
             <div class='contact-title'>

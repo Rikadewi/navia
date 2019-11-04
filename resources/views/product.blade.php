@@ -3,7 +3,7 @@
 <section id='product-page' class='section body-wrapper'>
     <div class='title'>
         <h2>Our Products</h2>
-        <a href='/how'>
+        <a href='/how' onclick="return gtag_report_conversion('https://naviafurniture.com/how');">
             <span class='round-button fill-button background-red'>
                 Find Out How &nbsp;<i class="fa fa-long-arrow-alt-right"></i>
             </span>

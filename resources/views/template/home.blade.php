@@ -10,7 +10,7 @@
             <h3 class='dark-purple'>
                 @yield('sub-title')
             </h3>
-            <a href='/how'>
+            <a href='/how' onclick="return gtag_report_conversion('https://naviafurniture.com/how');">
                 <span class='round-button fill-button background-red'>
                     Find Out How &nbsp;<i class="fa fa-long-arrow-alt-right"></i>
                 </span>
@@ -39,7 +39,7 @@
 <section id='product' class='section section-top'>
     <div class="title">
         <h2>Our Products</h2>
-        <a href='/product'>
+        <a href='/product' onclick="return gtag_report_conversion('https://naviafurniture.com/product');">
             <span class='round-button round-button-blue'>
                 See All Products
             </span>

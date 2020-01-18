@@ -3,13 +3,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Navia | Wooden Furniture</title>
+    <title>Solid Wood Furniture | Indonesia Manufacturer | Navia</title>
 
-    <meta name="description" content="Get Indonesian’s wooden furniture with the best craftsmen at affordable price." data-rdm="true">
+    <meta name="description" content="Find the best price of teak wood furniture here! Price start from $40/furniture. Best craftsmen from Indonesia with high quality Teak Wood." data-rdm="true">
 
-    <meta property="og:title" content="Wooden Furniture | Navia">
+    <meta property="og:title" content="Solid Wood Furniture | Indonesia Manufacturer | Navia">
     <meta property="og:site_name" content="Navia">
-    <meta property="og:desription" content="Get Indonesian’s wooden furniture with the best craftsmen at affordable price.">
+    <meta property="og:desription" content="Find the best price of teak wood furniture here! Price start from $40/furniture. Best craftsmen from Indonesia with high quality Teak Wood.">
     <meta property="og:type" content="business">
 
     <meta property="og:url" content="http://navia-furniture.com">
@@ -17,7 +17,7 @@
 
 
     <link rel="icon" type="image/ico" href="../img/logo/logo-white.png" />
-
+    
     <!--Font-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
           integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">

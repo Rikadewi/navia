@@ -1,7 +1,7 @@
 @extends('template.home')
 
 @section('title')
-Solid Wood Furniture Manufacturer
+Solid Wood Furniture Manufacturer & Exports
 @endsection
 
 @section('sub-title')

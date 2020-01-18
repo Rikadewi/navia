@@ -191,8 +191,8 @@ button:focus {
 }
 @media only screen and (max-width: 918px) {
     .round-button {
-        font-size: 19px;
-        padding: 12px 28px;
+        font-size: 17px;
+        padding: 14px 26px;
     }
     .section-top {
         padding: 8vw 0;
@@ -260,8 +260,11 @@ button:focus {
     display: flex;
     align-items: center;
 }
-.navbar-link > a {
-    margin: 0 10px;
+.navbar-link {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    font-size: 1.1em;
 }
 #navbar .fill-button {
     border: 3px solid #00D5CE;
@@ -273,6 +276,11 @@ button:focus {
 .box #navbar {
     padding-top: 8px;
     padding-bottom: 8px;
+}
+@media only screen and (max-width: 800px) {
+    .navbar-link {
+        font-size: 1em;
+    }
 }
 @media only screen and (max-width: 550px) {
     .control-mobile {

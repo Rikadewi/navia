@@ -10,9 +10,9 @@
             <h3 class='dark-purple'>
                 @yield('sub-title')
             </h3>
-            <a href='/how'>
+            <a href='/contact'>
                 <span class='round-button fill-button background-red'>
-                    Find Out How &nbsp;<i class="fa fa-long-arrow-alt-right"></i>
+                    Start Free Sample &nbsp;<i class="fa fa-long-arrow-alt-right"></i>
                 </span>
             </a>
         </div>

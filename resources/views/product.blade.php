@@ -31,7 +31,11 @@
             <a onclick='filterSelection("outdoor", event)'>Outdoor</a>
             <a onclick='filterSelection("sheesam", event)'>Sheesam</a>
         </div>
-        <div id='product-list' class='product-list'></div>    
+        <div id='product-list' class='product-list'>
+        @for ($i = 1; $i <= 47; $i++)
+            <div class='round-border'><div style='background-image: url("../img/portfolio/chair/{{ $i }}.png");' class='background-product'></div></div>
+        @endfor
+        </div>    
     </div>
     
 </section>

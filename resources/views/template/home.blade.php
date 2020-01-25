@@ -46,9 +46,9 @@
         </a>
     </div>
     <div class='product-list'>
-        <div class='round-border shadow'><div style='background-image: url("../img/portfolio/edited/10.png");' class='background-product'></div></div>
-        <div class='round-border shadow'><div style='background-image: url("../img/portfolio/edited/30.png");' class='background-product'></div></div>
-        <div class='round-border shadow'><div style='background-image: url("../img/portfolio/edited/41.png");' class='background-product'></div></div>
+        <div class='round-border shadow'><div style='background-image: url("../img/portfolio/chair/10.png");' class='background-product'></div></div>
+        <div class='round-border shadow'><div style='background-image: url("../img/portfolio/chair/30.png");' class='background-product'></div></div>
+        <div class='round-border shadow'><div style='background-image: url("../img/portfolio/chair/41.png");' class='background-product'></div></div>
     </div>
 </section>
 <section id='client' class='section-top'>

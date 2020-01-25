@@ -59,7 +59,7 @@
                 <h1 class='red'>5+</h1>&nbsp;<h2 class='dark-blue'>countries</h2>
             </div>
             <div class='client-count'>
-                <h1 class='red'>1000+</h1>&nbsp;<h2 class='dark-blue'>furnitures</h2>
+                <h1 class='red'>3000+</h1>&nbsp;<h2 class='dark-blue'>furnitures</h2>
             </div>
         </div>
     </div>

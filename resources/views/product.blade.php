@@ -9,15 +9,30 @@
             </span>
         </a>
     </div>
-    <h4 class='dark-purple'>
-        These are our portfolio of exported products. We use mahogany wood as basic 
-        solid wood and teak wood (which are indigenous in SEA)  as premium solid wood. 
-        We also use colorful cushion & natural rattan as addition.
-    </h4>
-    <div class='product-list'>
-        @for ($i = 1; $i <= 41; $i++)
-            <div class='round-border'><div style='background-image: url("../img/portfolio/edited/{{ $i }}.png");' class='background-product'></div></div>
-        @endfor
+    <div class='product-container'>
+        <div class='product-filter dark-purple'>
+            <h3 class='dark-blue'><b>Type</b></h3>
+            <a id='active' onclick='filterSelection("chair", event)'>Chair</a>
+            <a onclick='filterSelection("cabinet", event)'>Cabinet</a>
+            <a onclick='filterSelection("coffee-table", event)'>Coffee Table</a>
+            <a onclick='filterSelection("console-table", event)'>Console Table</a>
+            <a onclick='filterSelection("credenza", event)'>Credenza</a>
+            <a onclick='filterSelection("dining-table", event)'>Dining Table</a>
+            <a onclick='filterSelection("divan", event)'>Divan</a>
+            <a onclick='filterSelection("rack", event)'>Rack</a>
+            <a onclick='filterSelection("side-cabinet", event)'>Side Cabinet</a>
+            <a onclick='filterSelection("side-table", event)'>Side Table</a>
+            <a onclick='filterSelection("wardrobe", event)'>Wardrobe</a>
+            <h3 class='dark-blue'><b>Collection</b></h3>
+            <a onclick='filterSelection("assen", event)'>Assen</a>
+            <a onclick='filterSelection("athena", event)'>Athena</a>
+            <a onclick='filterSelection("choris", event)'>Choris</a>
+            <a onclick='filterSelection("long-island", event)'>Long Island</a>
+            <a onclick='filterSelection("outdoor", event)'>Outdoor</a>
+            <a onclick='filterSelection("sheesam", event)'>Sheesam</a>
+        </div>
+        <div id='product-list' class='product-list'></div>    
     </div>
+    
 </section>
 @endsection

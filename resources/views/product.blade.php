@@ -20,7 +20,6 @@
             <a onclick='filterSelection("dining-table", event)'>Dining Table</a>
             <a onclick='filterSelection("divan", event)'>Divan</a>
             <a onclick='filterSelection("rack", event)'>Rack</a>
-            <a onclick='filterSelection("side-cabinet", event)'>Side Cabinet</a>
             <a onclick='filterSelection("side-table", event)'>Side Table</a>
             <a onclick='filterSelection("wardrobe", event)'>Wardrobe</a>
             <h3 class='dark-blue'><b>Collection</b></h3>

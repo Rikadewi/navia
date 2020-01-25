@@ -10,7 +10,7 @@ function searchBlur() {
 const size = {};
 size['assen'] = 14;
 size['athena'] = 10;
-size['cabinet'] = 4;
+size['cabinet'] = 5;
 size['chair'] = 47;
 size['choris'] = 13;
 size['coffee-table'] = 4;
@@ -22,7 +22,6 @@ size['long-island'] = 5;
 size['outdoor'] = 19;
 size['rack'] = 3;
 size['sheesam'] = 2;
-size['side-cabinet'] = 1;
 size['side-table'] = 4;
 size['wardrobe'] = 5;
 

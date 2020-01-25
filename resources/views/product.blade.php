@@ -10,6 +10,40 @@
         </a>
     </div>
     <div class='product-container'>
+        <div class='product-page-mobile'>
+            <div class='product-filter-mobile'>
+                <a onclick='filterCategorize("type")'>
+                    <span id='type-button' class='active round-button fill-button'>
+                        Type
+                    </span>
+                </a>
+                <a onclick='filterCategorize("collection")'>
+                    <span id='collection-button' class='passive-right passive round-button fill-button'>
+                        Collection
+                    </span>
+                </a>
+            </div>
+            <div id='type-scroll' class="product-filter-scroll dark-purple">
+                <a id='active-scroll' class='first-type' onclick='filterScrollSelection("chair", event)'>Chair</a>
+                <a onclick='filterScrollSelection("cabinet", event)'>Cabinet</a>
+                <a onclick='filterScrollSelection("coffee-table", event)'>Coffee Table</a>
+                <a onclick='filterScrollSelection("console-table", event)'>Console Table</a>
+                <a onclick='filterScrollSelection("credenza", event)'>Credenza</a>
+                <a onclick='filterScrollSelection("dining-table", event)'>Dining Table</a>
+                <a onclick='filterScrollSelection("divan", event)'>Divan</a>
+                <a onclick='filterScrollSelection("rack", event)'>Rack</a>
+                <a onclick='filterScrollSelection("side-table", event)'>Side Table</a>
+                <a onclick='filterScrollSelection("wardrobe", event)'>Wardrobe</a>
+            </div>
+            <div id='collection-scroll' class="non-active-categorize product-filter-scroll dark-purple">
+                <a class='first-collection' onclick='filterScrollSelection("assen", event)'>Assen</a>
+                <a onclick='filterScrollSelection("athena", event)'>Athena</a>
+                <a onclick='filterScrollSelection("choris", event)'>Choris</a>
+                <a onclick='filterScrollSelection("long-island", event)'>Long Island</a>
+                <a onclick='filterScrollSelection("outdoor", event)'>Outdoor</a>
+                <a onclick='filterScrollSelection("sheesam", event)'>Sheesam</a>
+            </div>
+        </div>
         <div class='product-filter dark-purple'>
             <h3 class='dark-blue'><b>Type</b></h3>
             <a id='active' onclick='filterSelection("chair", event)'>Chair</a>
